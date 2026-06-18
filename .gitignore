@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+.env/
+app.db
+
+# kdanTechnies
+Nathan = 123410
+Boha = 123411

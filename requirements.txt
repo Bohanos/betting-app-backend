@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+asyncpg
+pydantic
+pydantic-settings
+python-jose[cryptography]   
+passlib==1.7.4
+bcrypt==4.3.0
+python-multipart
+cloudinary
+httpx
+python-dotenv
+gunicorn
