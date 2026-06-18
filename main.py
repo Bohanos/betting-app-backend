@@ -13,6 +13,7 @@ from database import engine, get_db
 # 1. Configuration (Reads from .env or Environment Variables)
 class Settings(BaseSettings):
     secret_key: str = "supersecretdefaultkey"  # Change this for production!
+    database_url: str = "sqlite:///./app.db"
     
     class Config:
         env_file = ".env"
